@@ -1,10 +1,10 @@
-import billing.RealBillingService;
-import creditCard.CreditCard;
-import orders.PizzaOrder;
+import billingService.billing.RealBillingService;
+import billingService.creditCard.CreditCard;
+import billingService.orders.PizzaOrder;
 import org.junit.Test;
-import paymentArtifacts.Receipt;
-import paymentProcessors.FakeCreditCardProcessor;
-import transactionLogs.InMemoryTransactionLog;
+import billingService.paymentArtifacts.Receipt;
+import billingService.paymentProcessors.FakeCreditCardProcessor;
+import billingService.transactionLogs.InMemoryTransactionLog;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

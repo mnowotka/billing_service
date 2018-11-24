@@ -1,6 +1,4 @@
-package orders;
-
-import orders.Order;
+package billingService.orders;
 
 public class PizzaOrder implements Order {
     private int amount;

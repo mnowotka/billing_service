@@ -1,8 +1,8 @@
-package billing;
+package billingService.billing;
 
-import creditCard.CreditCard;
-import orders.PizzaOrder;
-import paymentArtifacts.Receipt;
+import billingService.creditCard.CreditCard;
+import billingService.orders.PizzaOrder;
+import billingService.paymentArtifacts.Receipt;
 
 public interface BillingService {
 

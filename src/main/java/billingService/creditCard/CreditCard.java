@@ -1,4 +1,4 @@
-package creditCard;
+package billingService.creditCard;
 
 public class CreditCard {
     private String cardNumber;

@@ -1,6 +1,6 @@
-package transactionLogs;
+package billingService.transactionLogs;
 
-import paymentArtifacts.ChargeResult;
+import billingService.paymentArtifacts.ChargeResult;
 
 public interface TransactionLog {
     public void logChargeResult(ChargeResult result);

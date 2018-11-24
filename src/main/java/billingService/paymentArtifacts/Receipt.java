@@ -1,4 +1,4 @@
-package paymentArtifacts;
+package billingService.paymentArtifacts;
 
 public class Receipt {
     private int amount = 0;

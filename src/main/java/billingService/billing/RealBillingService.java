@@ -1,14 +1,13 @@
-package billing;
+package billingService.billing;
 
-import billing.BillingService;
 import com.google.inject.Inject;
-import creditCard.CreditCard;
-import exceptions.UnreachableException;
-import orders.PizzaOrder;
-import paymentArtifacts.ChargeResult;
-import paymentArtifacts.Receipt;
-import paymentProcessors.CreditCardProcessor;
-import transactionLogs.TransactionLog;
+import billingService.creditCard.CreditCard;
+import billingService.exceptions.UnreachableException;
+import billingService.orders.PizzaOrder;
+import billingService.paymentArtifacts.ChargeResult;
+import billingService.paymentArtifacts.Receipt;
+import billingService.paymentProcessors.CreditCardProcessor;
+import billingService.transactionLogs.TransactionLog;
 
 public class RealBillingService implements BillingService {
     private final CreditCardProcessor processor;

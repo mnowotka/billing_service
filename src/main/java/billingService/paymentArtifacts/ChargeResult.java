@@ -1,4 +1,4 @@
-package paymentArtifacts;
+package billingService.paymentArtifacts;
 
 public class ChargeResult {
     private int amount = 0;

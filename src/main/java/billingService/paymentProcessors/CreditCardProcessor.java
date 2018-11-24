@@ -1,8 +1,8 @@
-package paymentProcessors;
+package billingService.paymentProcessors;
 
-import creditCard.CreditCard;
-import exceptions.UnreachableException;
-import paymentArtifacts.ChargeResult;
+import billingService.creditCard.CreditCard;
+import billingService.exceptions.UnreachableException;
+import billingService.paymentArtifacts.ChargeResult;
 
 public interface CreditCardProcessor {
     ChargeResult charge(CreditCard creditCard, int amount) throws UnreachableException;

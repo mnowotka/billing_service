@@ -1,5 +1,5 @@
-package billingService.billing;
-
+import billingService.billing.BillingService;
+import billingService.billing.RealBillingService;
 import com.google.inject.AbstractModule;
 import billingService.paymentProcessors.CreditCardProcessor;
 import billingService.paymentProcessors.PaypalCreditCardProcessor;

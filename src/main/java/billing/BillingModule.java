@@ -1,4 +1,10 @@
+package billing;
+
 import com.google.inject.AbstractModule;
+import paymentProcessors.CreditCardProcessor;
+import paymentProcessors.PaypalCreditCardProcessor;
+import transactionLogs.DatabaseTransactionLog;
+import transactionLogs.TransactionLog;
 
 public class BillingModule extends AbstractModule {
     @Override

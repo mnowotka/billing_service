@@ -1,3 +1,5 @@
+import billing.BillingModule;
+import billing.BillingService;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 

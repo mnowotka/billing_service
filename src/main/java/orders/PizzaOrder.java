@@ -1,3 +1,7 @@
+package orders;
+
+import orders.Order;
+
 public class PizzaOrder implements Order {
     private int amount;
 

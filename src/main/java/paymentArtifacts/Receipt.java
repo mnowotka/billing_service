@@ -1,3 +1,5 @@
+package paymentArtifacts;
+
 public class Receipt {
     private int amount = 0;
     private boolean succesfullyCharged = false;

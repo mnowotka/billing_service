@@ -1,3 +1,8 @@
+package transactionLogs;
+
+import paymentArtifacts.ChargeResult;
+import transactionLogs.TransactionLog;
+
 public class InMemoryTransactionLog implements TransactionLog {
     public void logChargeResult(ChargeResult result){
         return;

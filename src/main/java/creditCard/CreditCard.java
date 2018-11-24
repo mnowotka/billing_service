@@ -1,3 +1,5 @@
+package creditCard;
+
 public class CreditCard {
     private String cardNumber;
     private int expiryMonth;

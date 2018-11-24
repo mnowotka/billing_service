@@ -4,7 +4,7 @@ import billingService.creditCard.CreditCard;
 import billingService.exceptions.UnreachableException;
 import billingService.paymentArtifacts.ChargeResult;
 
-public class PaypalCreditCardProcessor implements CreditCardProcessor {
+public class PaypalCreditCardProcessor {
     private CreditCard lastCreditCard;
     private int lastAmount;
 

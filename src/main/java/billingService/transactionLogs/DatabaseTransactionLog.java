@@ -2,7 +2,7 @@ package billingService.transactionLogs;
 
 import billingService.paymentArtifacts.ChargeResult;
 
-public class DatabaseTransactionLog implements TransactionLog {
+public class DatabaseTransactionLog {
     public void logChargeResult(ChargeResult result){
         return;
     }
